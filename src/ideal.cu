@@ -1,4 +1,4 @@
-#include "R.h"
+#include <R.h>
 #include <sys/time.h>
 
 #include "Random123-1.09/include/Random123/philox.h"
