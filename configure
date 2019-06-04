@@ -1952,7 +1952,7 @@ fi
 $as_echo "\"using ${R_HOME} for the root of the R install directory\"" >&6; }
 
 if test -z "${R_INCLUDE}"; then
-  R_INCLUDE="${R_HOME}/include"
+  R_INCLUDE="/usr/share/R/include"
 fi
 { $as_echo "$as_me:${as_lineno-$LINENO}: result: \"using ${R_INCLUDE} for R header files\"" >&5
 $as_echo "\"using ${R_INCLUDE} for R header files\"" >&6; }
